@@ -12,6 +12,15 @@ body{
     color: white;
    
 }
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 56px;
+}
+.h2{
+    /* font-size: 40px; */
+}
 
 /* navbar start */
 *{
@@ -120,6 +129,7 @@ a{
     border: none;
     background-color: black;
     color: white;
+    font-size: 16px;
 }
 .text{
     margin-bottom: 10px;
@@ -207,6 +217,9 @@ a{
     .time small{
         font-size: 10px;
     }
+    p{
+        font-size: 15px;
+    }
     /* .try{
         margin: 0;
         width: auto;
@@ -244,6 +257,12 @@ a{
     .nav-menu.active{
         left: 0;
 
+    }
+    p{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 40px;
     }
 }
 @media (max-width:768px){
