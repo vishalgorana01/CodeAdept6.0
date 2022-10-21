@@ -1,5 +1,6 @@
 .dark{
     background-color: black;
+    background-color: rgba(0, 0, 0, 0.541);
     color: white;
     padding: 20px 0;
 }
@@ -8,15 +9,31 @@
 }
 .center{
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .end{
     justify-content: space-between;
 }
 .try{
     width: 50vw;
+    /* height: 250px; */
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.try1{
     height: 250px;
     border: black 2px solid;
-    margin-bottom: 10px;
+}
+.date{
+    background-color: #fff;
+    color: #000;
+    padding: 3px 15px;
+    margin: 10px 0px;
+    text-align: center;
+    display: inline-block;
 }
 .gap{
     column-gap: 10px; 
@@ -43,5 +60,14 @@ footer{
     line-height: 25px;
 }
 .line-height{
-    line-height: 25px;
+    line-height: 27.5px;
+}
+.line-height1{
+    line-height: 65px;
+}
+.line-height2{
+    line-height: 35px;
+}
+.space{
+    margin: 30px auto;
 }
