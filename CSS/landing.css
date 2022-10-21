@@ -21,9 +21,6 @@ p{
 h1{
     font-size: 56px;
 }
-.h2{
-    /* font-size: 40px; */
-}
 
 /* navbar start */
 header{
@@ -193,7 +190,7 @@ a{
 /* about section end */
 
 .img{
-    width: fit-content;
+    /* width: fit-content; */
     /* height: 100%; */
     text-align: center;
     align-items: center;
@@ -266,6 +263,7 @@ a{
 
 /* sechudle start*/
 .sechudle{
+    overflow-x: hidden;
     padding: 2rem;
     /* padding-bottom: 400px; */
     margin: 0 auto;
