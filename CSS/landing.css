@@ -29,6 +29,8 @@ header{
     background-color: rgba(11, 32, 70);
     position: fixed;
     width: 100%;
+    top: 0px;
+    z-index: 4;
 }
 li{
     list-style: none;
