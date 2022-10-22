@@ -21,9 +21,6 @@ p{
 h1{
     font-size: 56px;
 }
-h3{
-    color: #0563bb;
-}
 
 /* navbar start */
 header{
@@ -32,6 +29,8 @@ header{
     background-color: rgba(11, 32, 70);
     position: fixed;
     width: 100%;
+    top: 0px;
+    z-index: 4;
 }
 li{
     list-style: none;
@@ -193,7 +192,7 @@ a{
 /* about section end */
 
 .img{
-    width: fit-content;
+    /* width: fit-content; */
     /* height: 100%; */
     text-align: center;
     align-items: center;
@@ -266,6 +265,7 @@ a{
 
 /* sechudle start*/
 .sechudle{
+    overflow-x: hidden;
     padding: 2rem;
     /* padding-bottom: 400px; */
     margin: 0 auto;
