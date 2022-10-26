@@ -178,7 +178,7 @@
 .card .upper{
     position: absolute;
     top: -40px;
-    background-color: #C5D7E5;
+    background-color: #C5D7E5 !important;
     height: 50%;
     width: 152%;
     border-bottom-left-radius: 50%;
