@@ -4,66 +4,7 @@
     padding: 0px;
 }
 
-/* header{
-    background-color: rgba(11, 32, 70, 0.15);
-    backdrop-filter: blur(3.5px);
-    -webkit-backdrop-filter: blur(3.5px);
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    z-index: 4;
-}
-li{
-    list-style: none;
-}
-a{
-    color: #287ab9;
-    text-decoration: none;
-}
-.logo{
-    width: 150px;
-    height: 150px;
-}
-.navbar{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-}
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-}
-.nav-heading{
-    font-size: 2rem;
-}
-.nav-link{
-    transition: 0.7s ease;
-}
-.nav-link:hover{
-    color:dodgerblue;
-}
-.menubar{
-    display: none;
-    cursor: pointer;
-}
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px auto;
-    -webkit-transition: all 0.3 ease-in-out;
-    transition: all 0.3 ease-in-out;
-}
-.present{
-    color: #fb8a8a;
-} */
 
-/********** navbar ends here *********/
 
 #section-2{
     display: flex;
