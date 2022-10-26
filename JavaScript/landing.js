@@ -17,10 +17,10 @@ function updateCountdowntime(){
     const h = Math.floor(diff/1000/60/60)%24;
     const m = Math.floor(diff/1000/60)%60;
     const s = Math.floor(diff/1000)%60;
-    console.log(d);
-    console.log(h);
-    console.log(m);
-    console.log(s);
+    // console.log(d);
+    // console.log(h);
+    // console.log(m);
+    // console.log(s);
 
     days.innerHTML =d;
     hour.innerHTML = h<10? '0' + h: h;

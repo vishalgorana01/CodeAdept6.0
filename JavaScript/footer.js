@@ -5,11 +5,11 @@ let social_media_handlers = document.querySelector(".container-5 .one div");
 for(let i=0; i<social_media_handlers.childElementCount; i++){
     social_media_handlers.children[i].addEventListener("mouseover", function(){
         social_media_handlers.children[i].style.backgroundColor = "#FEFCFB";
-        social_media_handlers.children[i].children[0].style.color = "#1282A2";
+        social_media_handlers.children[i].children[0].style.color = "#091015";
     })
 
     social_media_handlers.children[i].addEventListener("mouseleave", function(){
-        social_media_handlers.children[i].style.backgroundColor = "#1282A2";
+        social_media_handlers.children[i].style.backgroundColor = "#091015";
         social_media_handlers.children[i].children[0].style.color = "#FEFCFB";
     })
 }
