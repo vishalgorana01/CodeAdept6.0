@@ -35,7 +35,7 @@ h1 {
 }
 
 .bg-img {
-    background-image: url(/Images/CBg.png);
+    background-image: url(../Images/CBg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -261,7 +261,7 @@ h1 {
 /* sechudle start*/
 .sechudle {
     /* background-color: #0b2046; */
-    background: url(/Images/CBg.png) no-repeat center;
+    background: url(../Images/CBg.png) no-repeat center;
     background-size: cover;
     color: #FEFCFB;
     overflow-x: hidden;
