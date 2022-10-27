@@ -1,3 +1,5 @@
+
+import { } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-auth.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
 
 // Your web app's Firebase configuration
