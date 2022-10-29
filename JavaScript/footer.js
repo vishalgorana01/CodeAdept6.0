@@ -4,13 +4,15 @@ let social_media_handlers = document.querySelector(".container-5 .one div");
 
 for(let i=0; i<social_media_handlers.childElementCount; i++){
     social_media_handlers.children[i].addEventListener("mouseover", function(){
-        social_media_handlers.children[i].style.backgroundColor = "#287ab9";
+        social_media_handlers.children[i].style.transition = "all 1s";
+        social_media_handlers.children[i].style.backgroundColor = "#ffffffb5";
         social_media_handlers.children[i].children[0].style.color = "#091015";
     })
 
     social_media_handlers.children[i].addEventListener("mouseleave", function(){
+        social_media_handlers.children[i].style.transition = "all 1s";
         social_media_handlers.children[i].style.backgroundColor = "#091015";
-        social_media_handlers.children[i].children[0].style.color = "#287ab9";
+        social_media_handlers.children[i].children[0].style.color = "#ffffffb5";
     })
 }
 

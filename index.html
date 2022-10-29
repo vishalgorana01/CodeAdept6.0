@@ -17,10 +17,20 @@
     <link rel="stylesheet" href="./CSS/about.css">
     <link rel="stylesheet" href="./CSS/other.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+
+    <!-- AOS CDN link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
-    <header>
+<body onload=preloader()>
+    <section id="loader_container">
+        <div class="loader">
+            <span style="font-size: 34px !important;">{</span>Loading...<span
+                style="font-size: 34px !important;">}</span>
+        </div>
+    </section>
+
+    <header data-aos="fade-down">
         <nav class="navbar">
             <a href="#" class="nav-heading">CodeAdept</a>
 
@@ -29,7 +39,7 @@
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="timeline.html" class="nav-link">Schedule</a></li>
                 <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-                <li class="nav-item"><a href="emailVerification.html" class="nav-link">Registration</a></li>
+                <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
             </ul>
             <div class="menubar">
                 <span class="bar"></span>
@@ -44,7 +54,7 @@
                 <li><i class="fa-solid fa-user"></i><a href="about.html">About us</a></li>
                 <li><i class="fa-solid fa-user"></i><a href="team.html">Our Team</a></li>
                 <li><i class="fa-solid fa-calendar-days"></i><a href="timeline.html">Schedule</a></li>
-                <li><i class="fa-solid fa-clipboard-list"></i></i><a href="emailVerification.html">Register</a></li>
+                <li><i class="fa-solid fa-clipboard-list"></i></i><a href="register.html">Register</a></li>
                 <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact us</a></li>
             </ul>
         </div>
@@ -55,7 +65,7 @@
         <div class="bg-img">
             <div class="container">
                 <div class="hero">
-                    <div class="line-height1 para">
+                    <div class="line-height1 para" data-aos="zoom-in">
                         <img src="Images/Logo.png" class="logo">
                         <h1 class="hero-heading">{ CodeAdept 6.0 }</h1>
                         <p class="line-height para p1" style="color: #287ab9 !important">Lorem ipsum dolor sit amet.</p>
@@ -143,7 +153,7 @@
         </div> -->
 
         <section id="about_part">
-            <div class="about_part_container">
+            <div class="about_part_container" data-aos="fade-up">
                 <h2>About</h2>
                 <hr>
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, exercitationem iusto fuga labore
@@ -155,31 +165,35 @@
                 </span>
 
                 <!-- <div class="what_we_do"> -->
-                <h2>Our main focus</h2>
+                <h2>Our Main Focus</h2>
                 <!-- <hr style="width: 18%;"> -->
-                <span style="max-width: 900px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum deleniti in, repudiandae ex animi
+                <span style="max-width: 900px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum deleniti
+                    in, repudiandae ex animi
                     fuga reprehenderit maxime autem perferendis vel quod Lorem ipsum dolor sit amet..
                 </span>
                 <div class="what_we_do">
-                    <div class="one card">
+                    <div class="one card" data-aos="fade-up-right" >
                         <img src="./Images/Collab-bro.png" alt="error loading">
                         <div>
                             <h5>BrainStorming</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit. Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit.
+                                Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
                         </div>
                     </div>
-                    <div class="two card">
+                    <div class="two card" data-aos="zoom-in">
                         <img src="./Images/Career progress-amico.png" alt="error loading">
                         <div>
                             <h5>Placement preparation</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit. Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit.
+                                Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
                         </div>
                     </div>
-                    <div class="three card">
+                    <div class="three card" data-aos="fade-up-left">
                         <img src="./Images/Coding workshop-bro.png" alt="error loading">
                         <div>
                             <h5>Coding Skills</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit. Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit.
+                                Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
                         </div>
                     </div>
                 </div>
@@ -188,36 +202,36 @@
         </section>
 
         <!-- Countdown timer -->
-        <div class="dark">
-            <div class="container">
+        <div class="dark main_countdown">
+            <div class="container" data-aos="zoom-in">
                 <div class="hero2 line-height">
                     <div class="text para">
-                        <p style="margin-bottom: 15px; color: #287ab9;">Hackathon starting soon...
+                        <p style="margin-bottom: 15px; color: white;">Hackathon starting soon...
                         </p>
                         <!-- <p>Last Date for registration: 26th November, 2022</p> -->
                     </div>
                     <div id="countdown" class="countdown">
 
                         <div class="time">
-                            <h2 id="days" class="count" style="color: #287ab9;"></h2>
-                            <small style="color: #287ab9;">Days</small>
+                            <h2 id="days" class="count" style="color: white;"></h2>
+                            <small style="color: white;">Days</small>
                         </div>
                         <div class="time">
-                            <h2 id="hour" class="count" style="color: #287ab9;"></h2>
-                            <small style="color: #287ab9;">Hours</small>
+                            <h2 id="hour" class="count" style="color: white;"></h2>
+                            <small style="color: white;">Hours</small>
                         </div>
                         <div class="time">
-                            <h2 id="min" class="count" style="color: #287ab9;"></h2>
-                            <small style="color: #287ab9;">Minutes</small>
+                            <h2 id="min" class="count" style="color: white;"></h2>
+                            <small style="color: white;">Minutes</small>
                         </div>
                         <div class="time">
-                            <h2 id="sec" class="count" style="color: #287ab9;"></h2>
-                            <small style="color: #287ab9;">Seconds</small>
+                            <h2 id="sec" class="count" style="color: white;"></h2>
+                            <small style="color: white;">Seconds</small>
                         </div>
                     </div><br>
                     <div class="text line-height para">
-                        <p class="para" style="color: #287ab9;">Hackathone on: 26th-29th November, 2022</p>
-                        <p style="color: #287ab9;">Last Date for registration: 26th November, 2022</p>
+                        <p class="para" style="color: white;">Hackathone on: 26th-29th November, 2022</p>
+                        <p style="color: white;">Last Date for registration: 26th November, 2022</p>
                     </div>
 
                     <div class="button ">
@@ -236,10 +250,10 @@
                 officia iste dolorem similique omnis.</p>
             <div class="flex para gap center">
                 <div class="try try1"> -->
-                    <!-- <img src="Images/1st.png" class="img">
+        <!-- <img src="Images/1st.png" class="img">
                 <img src="Images/1st.png" class="img">
                 <img src="Images/1st.png" class="img"> -->
-                <!-- </div>
+        <!-- </div>
                 <div class="try try1"></div>
             </div>
             <div class="flex para gap">
@@ -250,7 +264,8 @@
         <!-- </div> -->
 
         <section id="gallery">
-            <h2>Previou's Year Glimpse</h2>
+            <h2>Previous Year Glimpse</h2>
+            <hr>
             <div class="container_gallery">
                 <div><img src="./Images/user2.jpg" alt="error loading"></div>
                 <div><img src="./Images/user4.jpg" alt="error loading"></div>
@@ -331,7 +346,7 @@
         </div>
 
         <!-- Our event pattener part -->
-        <div class="dark">
+        <div class="dark" style="padding: 20px 0px;">
             <div class="container space" style="color: #287ab9;">
                 <h1 class="about-heading">In collaboration</h1>
                 <p class="center">Revealing soon</p>
@@ -339,20 +354,20 @@
         </div>
         <!-- contact part -->
         <div class="container space contact_us_section">
-            <h1 class="about-heading">Contact us</h1>
+            <h1 class="about-heading" style="padding-bottom: 0px !important;">Contact us</h1>
             <div class="flex end">
                 <div class="line-height para" style="padding-top: 40px;">
                     <p class="para">
-                    <h3>Email:</h3>
-                    codeadeptrgtu@gmail.com
+                    <h3><i class="fa-regular fa-envelope" style="color:#287ab9; font-size: 28px;"></i> Email:</h3>
+                    <a href="mailto:codeadept@gmail.com">codeadeptrgtu@gmail.com</a>
                     </p>
                     <p class="para">
-                    <h3>Instagram:</h3>
-                    @codeadept
+                    <h3><i class="fa-brands fa-instagram" style="color:#287ab9; font-size: 28px;"></i> Instagram:</h3>
+                    <a href="https://www.instagram.com/codeadept/">@codeadept</a>
                     </p>
                     <p class="para">
-                    <h3>Linkedin:</h3>
-                    @codeadept
+                    <h3><i class="fa-brands fa-linkedin-in" style="color:#287ab9; font-size: 28px;"></i> Linkedin:</h3>
+                   <a href="https://www.linkedin.com/showcase/codeadept">@codeadept</a>
                     </p>
                 </div>
                 <!-- <div class="line-height">
@@ -375,24 +390,24 @@
                             <div class="flex1">
 
                                 <input type="text" placeholder="Your name" id="uname" class="form-control input"
-                                    autocomplete="Off" style="margin-right: 5px;"><br>
+                                    autocomplete="Off" style="margin-right: 5px;" name="userName"><br>
                                 <p id="usererror" class="error"></p>
 
                                 <!-- <label for="name">Email</label><br> -->
                                 <input type="text" placeholder="Your email" id="text" class="form-control input"
-                                    autocomplete="Off" style="margin-left: 5px;">
+                                    autocomplete="Off" style="margin-left: 5px;" name="userEmail">
                                 <p id="ibtext" class="error"></p>
                             </div>
 
                             <!-- <label for="name">subject</label><br> -->
                             <input type="text" placeholder="Subject" id="subject" class="form-control subject"
-                                autocomplete="Off">
+                                autocomplete="Off" name="userSubject">
                             <p id="numbererror" class="error"></p>
 
-                            <textarea name="" placeholder="Your message" id="" class="form-control subject"
+                            <textarea name="userMessage" placeholder="Your message" id="" class="form-control subject"
                                 rows="5"></textarea>
                             <p class="error"></p>
-                            <input type="Submit" value="submit" class="btn submitBtn">
+                            <input type="Submit" value="Send" class="btn submitBtn">
                         </form>
                     </div>
                 </div>
@@ -502,6 +517,26 @@
     <!-- Plugin file -->
     <script src="./js/addons/datatables.min.js"></script>
 
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            // delay: 0, 
+            duration: 1000,
+        });
+
+    </script>
+
 </body>
+
+<script>
+    function preloader() {
+        // setTimeout(() => {
+            let loader_container = document.getElementById("loader_container");
+            loader_container.style.display = "none";
+        // }, 1000);
+    }
+</script>
 
 </html>

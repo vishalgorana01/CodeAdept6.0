@@ -1,7 +1,7 @@
 .dark{
     background-color: #091015;
     color: white;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 .para{
     padding-bottom: 10px;
@@ -34,7 +34,7 @@
     background: none;
     /* border: 2px solid #287ab9; */
     background-color: #287ab9;
-    color: #091015;
+    color: white;
     border-radius: 2px;
 }
 .gap{

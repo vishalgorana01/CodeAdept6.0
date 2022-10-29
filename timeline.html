@@ -17,7 +17,14 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body onload=preloader()>
+    <section id="loader_container">
+        <div class="loader">
+            <span style="font-size: 34px !important;">{</span>Loading...<span
+                style="font-size: 34px !important;">}</span>
+        </div>
+    </section>
+
     <header>
         <nav class="navbar">
             <a href="#" class="nav-heading">CodeAdpet</a>
@@ -27,7 +34,7 @@
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="timeline.html" class="nav-link">Schedule</a></li>
                 <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-                <li class="nav-item"><a href="emailVerification.html" class="nav-link">Registration</a></li>
+                <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
             </ul>
             <div class="menubar">
                 <span class="bar"></span>
@@ -42,7 +49,7 @@
                 <li><i class="fa-solid fa-user"></i><a href="about.html">About us</a></li>
                 <li><i class="fa-solid fa-user"></i><a href="team.html">Our Team</a></li>
                 <li><i class="fa-solid fa-calendar-days"></i><a href="timeline.html">Schedule</a></li>
-                <li><i class="fa-solid fa-clipboard-list"></i></i><a href="emailVerification.html">Register</a></li>
+                <li><i class="fa-solid fa-clipboard-list"></i></i><a href="register.html">Register</a></li>
                 <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact us</a></li>
             </ul>
         </div>
@@ -177,4 +184,14 @@
 <script src="./JavaScript/navbar.js"></script>
 <!-- <script src="./JavaScript/landing.js"></script> -->
 <script src="./JavaScript/footer.js"></script>
+
+<script>
+    function preloader() {
+        // setTimeout(() => {
+            let loader_container = document.getElementById("loader_container");
+            loader_container.style.display = "none";
+        // }, 2000);
+    }
+</script>
+
 </html>

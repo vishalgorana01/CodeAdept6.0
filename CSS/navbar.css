@@ -174,5 +174,50 @@ a {
 
 .sidebar ul li i{
     margin-right: 10px;
+    color: white;
+}
+
+.sidebar ul li a{
+    color: white;
+}
+
+#loader_container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: #091015;
+    z-index: 10;
+}
+
+.loader {
     color: #287ab9;
+
+    font-family: Consolas, Menlo, Monaco, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.loader span {
+    display: inline-block;
+    animation: pulse 0.4s alternate infinite ease-in-out;
+
+}
+
+.loader span:nth-child(odd) {
+    animation-delay: 0.4s;
+}
+
+
+
+@keyframes pulse {
+    to {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
 }

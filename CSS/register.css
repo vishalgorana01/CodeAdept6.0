@@ -1,6 +1,7 @@
-body{
+body, html{
     overflow-x: hidden;
 }
+
 #register_section-2{
     position: relative;
     margin-top: 100px;
