@@ -4,19 +4,19 @@ let social_media_handlers = document.querySelector(".container-5 .one div");
 
 for(let i=0; i<social_media_handlers.childElementCount; i++){
     social_media_handlers.children[i].addEventListener("mouseover", function(){
-        social_media_handlers.children[i].style.backgroundColor = "#FEFCFB";
+        social_media_handlers.children[i].style.backgroundColor = "#287ab9";
         social_media_handlers.children[i].children[0].style.color = "#091015";
     })
 
     social_media_handlers.children[i].addEventListener("mouseleave", function(){
         social_media_handlers.children[i].style.backgroundColor = "#091015";
-        social_media_handlers.children[i].children[0].style.color = "#FEFCFB";
+        social_media_handlers.children[i].children[0].style.color = "#287ab9";
     })
 }
 
 let useful_links = document.querySelector(".container-5 .three div ul");
 
-console.log(useful_links);
+// console.log(useful_links);
 
 for(let i=0; i<useful_links.childElementCount; i++){
     useful_links.children[i].addEventListener("mouseover", function(){

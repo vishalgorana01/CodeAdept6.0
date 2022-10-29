@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 #register_section-2{
     position: relative;
     margin-top: 100px;
@@ -49,4 +52,34 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     }
+    }
+
+
+    .inputdiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        margin: 0px auto;
+        width: 350px;
+        margin-top: 300px;
+    }
+
+    .inputdiv input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-radius: 4px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .inputdiv button{
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
     }

@@ -27,12 +27,15 @@
     border: black 2px solid;
 }
 .date{
-    background-color: #fff;
-    color: #000;
     padding: 3px 15px;
     margin: 10px 0px;
     text-align: center;
     display: inline-block;
+    background: none;
+    /* border: 2px solid #287ab9; */
+    background-color: #287ab9;
+    color: #091015;
+    border-radius: 2px;
 }
 .gap{
     column-gap: 10px; 

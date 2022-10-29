@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeAdepat 6.0 - About page</title>
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/emailVerified.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./CSS/navbar.css">
-    <link rel="stylesheet" href="./CSS/landing.css">
-    <link rel="stylesheet" href="./CSS/footer.css">
+    <title>CodeAdepat 6.0 - email Verified</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <a href="#" class="nav-heading">CodeAdpet</a>
 
             <ul class="nav-menu">
-                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link present">About</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link present">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="timeline.html" class="nav-link">Schedule</a></li>
                 <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
                 <li class="nav-item"><a href="emailVerification.html" class="nav-link">Registration</a></li>
             </ul>
             <div class="menubar">
-                <span class="bar" style="background-color: #287ab9;"></span>
-                <span class="bar" style="background-color: #287ab9;"></span>
-                <span class="bar" style="background-color: #287ab9;"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </nav>
 
@@ -45,7 +49,23 @@
         </div>
     </header>
 
-    <section id="section-5">
+    <section id="section-2_emailVerified">
+        <div class="container-2">
+            <div class="verified_png">
+                <img src="./Images/emailVerification.png.png" alt="error loading">
+                <img class="verified" src="./Images/verified.png" alt="error loading">
+            </div>
+
+            <div class="verified_email">
+                <h2>email verified</h2>
+                <p>Yahoo! <b>vishalgorana514@gmail.com</b> is successfully verified</p>
+            </div>
+
+            <button type="button">continue</button>
+        </div>
+    </section>
+
+    <section id="section-5" style="margin-top: 0px !important;">
         <div class="container-5">
             <div class="one">
                 <h4>About us</h4>
@@ -100,10 +120,13 @@
         </div>
     </section>
 
-    <footer><div>copyright | codeadept 6.0 | 2022</div></footer>
+    <footer>
+        <div>copyright | codeadept 6.0 | 2022</div>
+    </footer>
 </body>
 
 <script src="./JavaScript/navbar.js"></script>
+<script type="module" src="./JavaScript/emailVerified.js"></script>
 <script src="./JavaScript/footer.js"></script>
 
 </html>

@@ -32,3 +32,49 @@ function updateCountdowntime(){
 }
 setInterval(updateCountdowntime, 1000);
 // updateCountdowntime();
+
+let message = document.querySelector(".contact_form textarea");
+let contact_form_input = document.querySelectorAll(".contact_form input");
+
+contact_form_input[0].addEventListener("click", function(){
+    // contact_form_input[i].placeholder.style.transiton = "all 0.5s linear";
+    // contact_form_input[i].placeholder.style.transform = "translateY(-20px)";
+    // contact_form_input[i].placeholder.style.fontSize = "translateY(11px)";
+
+    contact_form_input[0].style.borderBottom = "2px solid #091015";
+    contact_form_input[1].style.borderBottom = "1px solid #09101586";
+    contact_form_input[2].style.borderBottom = "1px solid #09101586";
+    message.style.borderBottom = "1px solid #09101586"
+})
+
+contact_form_input[1].addEventListener("click", function(){
+    // contact_form_input[i].placeholder.style.transiton = "all 0.5s linear";
+    // contact_form_input[i].placeholder.style.transform = "translateY(-20px)";
+    // contact_form_input[i].placeholder.style.fontSize = "translateY(11px)";
+
+    contact_form_input[0].style.borderBottom = "1px solid #09101586";
+    contact_form_input[1].style.borderBottom = "2px solid #091015";
+    contact_form_input[2].style.borderBottom = "1px solid #09101586";
+    message.style.borderBottom = "1px solid #09101586"
+})
+
+contact_form_input[2].addEventListener("click", function(){
+    // contact_form_input[i].placeholder.style.transiton = "all 0.5s linear";
+    // contact_form_input[i].placeholder.style.transform = "translateY(-20px)";
+    // contact_form_input[i].placeholder.style.fontSize = "translateY(11px)";
+
+    contact_form_input[0].style.borderBottom = "1px solid #09101586";
+    contact_form_input[1].style.borderBottom = "1px solid #09101586";
+    contact_form_input[2].style.borderBottom = "2px solid #091015";
+    message.style.borderBottom = "1px solid #09101586"
+})
+
+
+
+
+message.addEventListener("click", function(){
+    message.style.borderBottom = "2px solid #091015"
+    contact_form_input[0].style.borderBottom = "1px solid #09101586";
+    contact_form_input[1].style.borderBottom = "1px solid #09101586";
+    contact_form_input[2].style.borderBottom = "1px solid #09101586";
+})

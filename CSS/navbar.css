@@ -73,13 +73,14 @@ a {
     color: #fb8a8a;
 }
 
-@media (max-width: 700px){
+/* @media (max-width: 700px){
 
     .menubar {
-        display: block;
+        display: block !important;
     }
 
     .nav-menu {
+        display: none !important;
         position: fixed !important;
         left: -100%;
         top: 70px;
@@ -90,11 +91,16 @@ a {
         text-align: center;
         transition: 0.3s;
     }
-}
+} */
 
 @media(max-width:768px) {
+
+    /* body{
+        background-color: #070d11 !important;
+    } */
+
     .menubar {
-        display: block;
+        display: block !important;
     }
 
     .menubar.active .bar:nth-child(2) {
@@ -110,15 +116,7 @@ a {
     }
 
     .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #262626;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
+        display: none !important;
     }
 
     .nav-item {

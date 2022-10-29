@@ -20,7 +20,7 @@
     grid-template-columns: 1.2fr 1fr 1fr 1.3fr;
     width: 90%;
     height: 90%;
-    border-top: 4px solid #FEFCFB;
+    border-top: 4px solid #287ab9;
     margin-top: 60px;
     margin-bottom: 30px;
     max-width: 1404px;
@@ -43,19 +43,20 @@
 
 .container-5 .one h4{
     font-size: 20px;
-    color: #FEFCFB;
+    color: #287ab9;
 }
 
 .container-5 .one hr{
     width: 40px;
     margin: 8px 0px 25px 0px;
+    border: 2px solid #287ab9;
 }
 
 .container-5 .one p{
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 18px;
-    color: #FEFCFB;
+    color: #287ab9;
 }
 
 .container-5 .one div{
@@ -69,7 +70,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #FEFCFB;
+    border: 2px solid #287ab9;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -81,7 +82,7 @@
 }
 
 .container-5 .one div span a{
-    color: #FEFCFB;
+    color: #287ab9;
 }
 
 
@@ -96,12 +97,13 @@
 
 .container-5 .two h4{
     font-size: 20px;
-    color: #FEFCFB;
+    color: #287ab9;
 }
 
 .container-5 .two hr{
     width: 50px;
     margin: 8px 0px 25px 0px;
+    border: 2px solid #287ab9;
 }
 
 .container-5 .two div{
@@ -117,7 +119,7 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    color: #FEFCFB;
+    color: #287ab9;
     font-size: 14px;
     margin: 5px 0px;
 }
@@ -138,12 +140,13 @@
 
 .container-5 .three h4{
     font-size: 20px;
-    color: #FEFCFB;
+    color: #287ab9;
 }
 
 .container-5 .three hr{
     width: 50px;
     margin: 8px 0px 25px 0px;
+    border: 2px solid #287ab9;
 }
 
 .container-5 .three div{
@@ -166,13 +169,13 @@
 }
 
 .container-5 .three div ul li i{
-    color: #FEFCFB;
+    color: #287ab9;
     margin-right: 5px;
     display: none;
 }
 
 .container-5 .three div ul li a{
-    color: #FEFCFB;
+    color: #287ab9;
     text-decoration: none;
     font-size: 14px;
 }
@@ -189,12 +192,13 @@
 
 .container-5 .four h4{
     font-size: 20px;
-    color: #FEFCFB;
+    color: #287ab9;
 }
 
 .container-5 .four hr{
     width: 50px;
     margin: 8px 0px 25px 0px;
+    border: 2px solid #287ab9;
 }
 
 .container-5 .four div{

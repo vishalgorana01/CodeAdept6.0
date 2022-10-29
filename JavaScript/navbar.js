@@ -2,7 +2,7 @@ console.log("Hello, I am navbar js");
 
 let menubar = document.querySelector(".menubar");
 
-console.log(menubar);
+// console.log(menubar);
 let sidebar = document.querySelector(".sidebar")
 let open = true;
 menubar.addEventListener("click", function () {
