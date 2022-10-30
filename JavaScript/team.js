@@ -69,6 +69,8 @@ let card = document.querySelectorAll(".card");
 
 for(let i=0; i<card.length; i++){
     card[i].addEventListener("mouseover", function(){
+        // card[i].style.transition = "all 2s linear";
+        // card[i].style.height = "400px";
         card[i].children[0].style.transition = "all 0.4s";
         card[i].children[0].style.transform = "translateY(0%)";
 
@@ -91,6 +93,8 @@ for(let i=0; i<card.length; i++){
     }
 
     card[i].addEventListener("mouseleave", function(){
+        // card[i].style.transition = "all 2s linear";
+        // card[i].style.height = "fit-content";
         card[i].children[0].style.transition = "all 0.4s";
         card[i].children[0].style.transform = "translateY(-100%)";
 

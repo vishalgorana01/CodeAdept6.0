@@ -8,7 +8,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body, html {
+body,
+html {
     overflow-x: hidden;
     /* padding-bottom: 20px; */
     /* color: white; */
@@ -472,6 +473,7 @@ h1 {
         line-height: 1.5rem;
     }
 }
+
 .about_part_container .what_we_do {
     display: flex;
     width: 100%;
@@ -620,7 +622,7 @@ h1 {
     } */
 }
 
-.main_countdown{
+.main_countdown {
     position: relative;
     background-image: url("../Images/timer\ Bg.jpg");
     background-repeat: no-repeat;
@@ -628,7 +630,7 @@ h1 {
     background-position: center;
     object-fit: cover;
     background-color: #091015c9 !important;
-    background-blend-mode: darken ;
+    background-blend-mode: darken;
     padding: 20px 10px;
 }
 
@@ -648,7 +650,7 @@ h1 {
     text-align: center;
 }
 
-#gallery hr{
+#gallery hr {
     width: 400px;
     margin-bottom: 30px;
 
@@ -743,7 +745,7 @@ h1 {
 }
 
 .contact_us_section {
-    display: flex;
+    display: flex ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -752,6 +754,16 @@ h1 {
 
 .contact_us_section div {
     margin: 0px 20px;
+}
+
+@media (max-width: 768px) {
+    .contact_us_section .social_handlers {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
 }
 
 .contact_form {

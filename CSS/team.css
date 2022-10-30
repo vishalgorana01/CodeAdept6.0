@@ -6,6 +6,7 @@
 
 body, html{
     overflow-x: hidden;
+    background-attachment: fixed;
 }
 
 
@@ -17,9 +18,10 @@ body, html{
     width: 100vw;
     max-width: 1560px;
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 50px;
     /* border: 2px solid black; */
     height: auto;
+    margin-bottom: 40px;
 }
 
 .container-2{
@@ -30,6 +32,7 @@ body, html{
     /* border: 2px solid red; */
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .team_heading{
@@ -39,6 +42,33 @@ body, html{
     width: 100%;
     height: 50px;
     margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container-2 .executive_members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container-2 .core_team_members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container-2 .asper_team_members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 /* .card{
@@ -169,13 +199,19 @@ body, html{
 
 .card{
     position: relative;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 270px;
     width: 300px;
     overflow: hidden;
+    transition: height 2s,
+}
+
+.card:hover{
+    height: 400px;
 }
 
 .card .upper{

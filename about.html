@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +15,10 @@
     <link rel="stylesheet" href="./CSS/landing.css">
     <link rel="stylesheet" href="./CSS/footer.css">
 
-     <!-- AOS CDN link -->
-     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS CDN link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body onload=preloader()>
     <section id="loader_container">
         <div class="loader">
@@ -33,7 +35,7 @@
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link present">About</a></li>
                 <li class="nav-item"><a href="timeline.html" class="nav-link">Schedule</a></li>
-                <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
+                <li class="nav-item"><a href="team2.html" class="nav-link">Team</a></li>
                 <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
             </ul>
             <div class="menubar">
@@ -47,7 +49,7 @@
             <ul>
                 <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
                 <li><i class="fa-solid fa-user"></i><a href="about.html">About us</a></li>
-                <li><i class="fa-solid fa-user"></i><a href="team.html">Our Team</a></li>
+                <li><i class="fa-solid fa-user"></i><a href="team2.html">Our Team</a></li>
                 <li><i class="fa-solid fa-calendar-days"></i><a href="timeline.html">Schedule</a></li>
                 <li><i class="fa-solid fa-clipboard-list"></i></i><a href="register.html">Register</a></li>
                 <li><i class="fa-solid fa-phone"></i><a href="contact.html">Contact us</a></li>
@@ -113,12 +115,61 @@
                 <div class="time">
                     <h2 id="sec"></h2>
                     <small>Seconds</small>
+                </div> -->
                 </div>
-            </div> -->
-                </div>
-
             </div>
+
         </div>
+    </div>
+
+    <section id="about_part">
+        <div class="about_part_container" data-aos="fade-up">
+            <h2>About</h2>
+            <hr>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, exercitationem iusto fuga labore
+                veniam vitae doloremque placeat quas eos asperiores totam repudiandae dicta tempora consequatur
+                dolorem tempore nisi modi vero.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum repellendus ratione omnis
+                numquam earum sit accusantium, temporibus autem harum voluptates delectus tempora perspiciatis est
+                architecto dolorum nulla quo, atque nesciunt.
+            </span>
+
+            <!-- <div class="what_we_do"> -->
+            <h2>Our Main Focus</h2>
+            <!-- <hr style="width: 18%;"> -->
+            <span style="max-width: 900px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum deleniti
+                in, repudiandae ex animi
+                fuga reprehenderit maxime autem perferendis vel quod Lorem ipsum dolor sit amet..
+            </span>
+            <div class="what_we_do">
+                <div class="one card" data-aos="fade-up-right">
+                    <img src="./Images/Collab-bro.png" alt="error loading">
+                    <div>
+                        <h5>BrainStorming</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit.
+                            Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
+                    </div>
+                </div>
+                <div class="two card" data-aos="zoom-in">
+                    <img src="./Images/Career progress-amico.png" alt="error loading">
+                    <div>
+                        <h5>Placement preparation</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit.
+                            Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
+                    </div>
+                </div>
+                <div class="three card" data-aos="fade-up-left">
+                    <img src="./Images/Coding workshop-bro.png" alt="error loading">
+                    <div>
+                        <h5>Coding Skills</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit sit.
+                            Exercitationem illum optio, illo ab culpa corporis fugiat! Id.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
 
     <section id="section-5">
         <div class="container-5">
@@ -175,18 +226,20 @@
         </div>
     </section>
 
-    <footer><div>copyright | codeadept 6.0 | 2022</div></footer>
+    <footer>
+        <div>copyright | codeadept 6.0 | 2022</div>
+    </footer>
 
-     <!-- AOS JavaScript -->
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-     <script>
-         AOS.init({
-             offset: 120,
-             // delay: 0, 
-             duration: 1000,
-         });
- 
-     </script>
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            // delay: 0, 
+            duration: 1000,
+        });
+
+    </script>
 
 </body>
 
@@ -198,8 +251,8 @@
 <script>
     function preloader() {
         // setTimeout(() => {
-            let loader_container = document.getElementById("loader_container");
-            loader_container.style.display = "none";
+        let loader_container = document.getElementById("loader_container");
+        loader_container.style.display = "none";
         // }, 2000);
     }
 </script>
